@@ -1,0 +1,55 @@
+body {
+    background-image: url(Bathome1.png); /* Remplacez 'nom_de_votre_image.jpg' par le nom de votre image avec l'extension appropriée (jpg, png, etc.) */
+    background-size: cover; /* Cette propriété assure que l'image de fond couvre toute la surface du corps (body) */
+    background-repeat: no-repeat; /* Empêche l'image de fond de se répéter */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px;
+}
+
+.logo img {
+    width: 100px; 
+    height: auto; 
+}
+
+.menu {
+    list-style: none;
+    margin: 40px;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px; /* Ajoute une marge à gauche entre les éléments de menu */
+}
+
+.menu li:first-child {
+    margin-left: 0; /* Supprime la marge à gauche pour le premier élément de menu */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 16px;
+}
+
+/* Styles supplémentaires pour les liens au survol (optionnel) */
+.menu li a:hover {
+    color: #007BFF;
+    font-weight: bold;
+}
+
+main {
+    text-align: center; /* Centre le contenu dans la balise main */
+    margin-top: 45px; /* Ajoute une marge au-dessus du paragraphe pour l'espacement */
+    color: #FFF;
+}
