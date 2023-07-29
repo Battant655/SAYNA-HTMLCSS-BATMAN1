@@ -1,7 +1,7 @@
 body {
-    background-image: url(Bathome1.png); /* Remplacez 'nom_de_votre_image.jpg' par le nom de votre image avec l'extension appropriée (jpg, png, etc.) */
-    background-size: cover; /* Cette propriété assure que l'image de fond couvre toute la surface du corps (body) */
-    background-repeat: no-repeat; /* Empêche l'image de fond de se répéter */
+    background-image: url(Bathome1.png); 
+    background-size: cover;  
+    background-repeat: no-repeat; 
 }
 
 body {
@@ -29,11 +29,11 @@ header {
 
 .menu li {
     display: inline-block;
-    margin-left: 20px; /* Ajoute une marge à gauche entre les éléments de menu */
+    margin-left: 20px; 
 }
 
 .menu li:first-child {
-    margin-left: 0; /* Supprime la marge à gauche pour le premier élément de menu */
+    margin-left: 0; 
 }
 
 .menu li a {
@@ -42,14 +42,46 @@ header {
     font-size: 16px;
 }
 
-/* Styles supplémentaires pour les liens au survol (optionnel) */
+
 .menu li a:hover {
     color: #007BFF;
     font-weight: bold;
 }
 
 main {
-    text-align: center; /* Centre le contenu dans la balise main */
-    margin-top: 45px; /* Ajoute une marge au-dessus du paragraphe pour l'espacement */
+    text-align: center; 
+    margin-top: 45px; 
     color: #FFF;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    margin-top: 30px; 
+}
+
+aside {
+    display: flex; 
+    flex-direction: column; 
+    align-items: flex-end; 
+    margin-top: -230px; 
+}
+
+.logo-container img {
+    margin-bottom: 30px; 
+}
+
+.icon-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 40px;
+}
+
+h2 {
+    display: flex; 
+    justify-content: left; 
+    align-items: left;
+    margin: 0px;
+    color: rgb(178, 218, 218);
 }
