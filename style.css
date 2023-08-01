@@ -82,6 +82,31 @@ h2 {
     display: flex; 
     justify-content: left; 
     align-items: left;
-    margin: 0px;
+    margin: 10px;
     color: rgb(178, 218, 218);
+}
+
+.left-half {
+    width: 50%; 
+    float: left; 
+    text-align: left; 
+    margin-right: 10px; 
+    margin: 10px;
+}
+
+.image-container {
+    display: flex; 
+    justify-content: space-between; 
+    grid-template-columns: repeat(3, 1fr); /* Crée trois colonnes de largeur égale */
+    gap: 20px; /* Ajoute une marge entre les figures */
+    max-width: 900px; 
+    margin: 0 auto; 
+}
+
+figure {
+    text-align: center; 
+}
+
+figcaption {
+    margin-top: 10px; 
 }
