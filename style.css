@@ -78,35 +78,51 @@ aside {
     height: 40px;
 }
 
-h2 {
-    display: flex; 
-    justify-content: left; 
-    align-items: left;
-    margin: 10px;
-    color: rgb(178, 218, 218);
+.text-container {
+    display: flex; /* Utilise Flexbox pour aligner les éléments en colonnes */
+    flex-direction: column; /* Aligne les éléments en colonnes */
+    align-items: flex-start; /* Aligne les éléments à gauche */
+    max-width: 600px; /* Définit la largeur maximale des éléments de texte */
+    margin: 20px; 
+    width: 50%; /* Définit la largeur du paragraphe à 50% de la largeur de la page */
+    text-align: left; 
 }
 
-.left-half {
-    width: 50%; 
-    float: left; 
-    text-align: left; 
-    margin-right: 10px; 
-    margin: 10px;
+.text-container h2 {
+    margin-bottom: 10px; /* Ajoute une marge en bas du titre */
 }
 
 .image-container {
     display: flex; 
     justify-content: space-between; 
     grid-template-columns: repeat(3, 1fr); /* Crée trois colonnes de largeur égale */
-    gap: 20px; /* Ajoute une marge entre les figures */
-    max-width: 900px; 
-    margin: 0 auto; 
+    gap: 10px; /* Ajoute une marge entre les figures */
+    max-width: 2000px; 
+    margin: 0 auto;
+    flex: 0 0 calc(33.33% - 20px); 
 }
 
-figure {
-    text-align: center; 
+.logonémésis {
+    float: left;
+    width: 100px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto; /* Permet au logo de conserver son rapport hauteur/largeur */
+    margin: 10px; /* Ajoute une marge autour du logo pour l'espacement */
 }
 
-figcaption {
-    margin-top: 10px; 
+.logobatman {
+    float: right;
+    width: 175px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto; /* Permet au logo de conserver son rapport hauteur/largeur */
+    margin: 10px; 
 }
+
+.text-container h2 {
+    word-wrap: break-word;
+}
+
+p{
+   
+    margin: 20px; 
+    
+}
+
