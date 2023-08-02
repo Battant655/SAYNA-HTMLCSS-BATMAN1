@@ -126,3 +126,56 @@ p{
     
 }
 
+.logoderoulant{
+    width: 100%;
+}
+
+.guillemets1{
+    float: left;
+    width: 100px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto; /* Permet au logo de conserver son rapport hauteur/largeur */
+    margin: 30px
+}
+
+.guillemets2{
+    float: right;
+    width: 100px; /* Ajustez la largeur du logo selon vos besoins */
+    height: auto; /* Permet au logo de conserver son rapport hauteur/largeur */
+    margin: 30px
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #000000;
+    padding: 20px;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+  }
+  
+  .footer-logo img {
+    width: 50px; /* Ajustez la taille du logo du pied de page selon vos besoins */
+  }
+  
+  .footer-text {
+    flex: 1;
+    text-align: center;
+    color: #f0f0f0;
+  }
+  
+  .footer-logos {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-logos img {
+    width: 20px; /* Ajustez la taille des logos selon vos besoins */
+    margin: 0 5px; /* Ajoute un espace entre les logos */
+  }
+  
